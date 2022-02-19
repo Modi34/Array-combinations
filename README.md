@@ -44,7 +44,7 @@ combine([1, 2, 3, 4, 5, 6, 7, 8], 3)
 ```
 ![](https://i.imgur.com/462etkQ.png)
 
-Originally I wrote this trying to get all possible classList combinations for DOM nodes:
+Originally I wrote this trying to get all possible classList combinations for a DOM node:
 ```javascript
 function combine(arr = []){
 	let result = []

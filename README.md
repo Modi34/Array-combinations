@@ -22,7 +22,8 @@ function combine(arr = []){
 ```
 ![](https://i.imgur.com/m4YC0Ow.png)
 
-The reason for keeping it simple is ability to modify it for any usecase without much effort.
+The reason for keeping it simple is ability to modify it for any usecase without much effort. 
+IMHO this approach is much better than making a library that can do *anything*
 
 If you need to limit results by length:
 ```javascript

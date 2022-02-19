@@ -24,7 +24,7 @@ function combine(arr = []){
 ```
 The reason to keep it simple is ability to change it for any usecase without much effort:
 
-If you need to limit results by array length:
+If you need to limit results by length:
 ```javascript
 function combine(arr = [], limit){
 	let result = []
@@ -43,7 +43,7 @@ combine([1, 2, 3, 4, 5, 6, 7, 8], 3)
 ```
 ![](https://i.imgur.com/462etkQ.png)
 
-I wrote this to be able to get all possible classList combinations for DOM nodes
+I wrote this trying to get all possible classList combinations for DOM nodes:
 ```javascript
 function combine(arr = []){
 	let result = []

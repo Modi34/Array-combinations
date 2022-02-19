@@ -11,7 +11,7 @@ function combine(arr = []){
 	let result = []
 	function combine(sub = [], i = 0) {
 		let c, v;
-		while(v = arr[i++]){;
+		while(v = arr[ i++ ]){;
 			result.push(c = [...sub, v])
 			combine(c, i)
 		};
@@ -31,7 +31,7 @@ function combine(arr = [], limit){
 	let result = []
 	function combine(sub = [], i = 0) {
 		let c, v;
-		while(v = arr[i++]){;
+		while(v = arr[ i++ ]){;
 			result.push(c = [...sub, v])
 			c.length < limit && combine(c, i)
 		};
@@ -50,7 +50,7 @@ function combine(arr = []){
 	let result = []
 	function combine(sub = [], i = 0) {
 		let c, v;
-		while(v = arr[i++]){
+		while(v = arr[ i++ ]){
 			c = [...sub, v]
 			result.push('.' + c.join('.'))
 			combine(c, i)

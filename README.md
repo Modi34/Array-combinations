@@ -38,6 +38,8 @@ function combine(arr = [], limit){
 	combine();
 	return result
 };
+
+combine([1, 2, 3, 4, 5, 6, 7, 8], 3)
 ```
 ![](https://i.imgur.com/462etkQ.png)
 
@@ -56,5 +58,7 @@ function combine(arr = []){
 	combine();
 	return result
 };
+
+combine(['col-4', 'col-sm-4', 'col-lg-4', 'col-xl-3', 'list-style-none', 'f6', 'color-fg-muted', 'pl-lg-4'])
 ```
 ![](https://i.imgur.com/V0DAqJ6.png)
